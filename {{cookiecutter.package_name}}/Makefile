@@ -11,6 +11,7 @@ init:
 	bash bin/init.sh
 	pipenv shell
 
+.PHONY: test
 test:
 	bash bin/test.sh
 	pylint {{cookiecutter.package_name}} --reports=y
