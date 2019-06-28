@@ -1,5 +1,6 @@
 {
     "author_name": "Aditya Kelvianto Sidharta",
     "package_name": "sample_package",
+    "package_description": "My Amazing Package!",
     "github_project_origin": "git@github.com:AdityaSidharta/package_name.git"
 }

@@ -5,7 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-bumpversion = "*"
+bump2version = "*"
 black = "==19.3b0"
 flit = "*"
 pytest = "*"

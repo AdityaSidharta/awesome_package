@@ -6,9 +6,6 @@ help:
 	@echo "publishmajor - publish major version"
 	@echo "publisminor - publish minor version"
 	@echo "publishpatch - publish patch version"
-	@echo "bumpmajor - bump major version"
-	@echo "bumpminor - bump minor version"
-	@echo "bumppatch - bump patch version"
 
 init:
 	bash bin/init.sh
@@ -18,20 +15,11 @@ test:
 	bash bin/test.sh
 	pylint {{cookiecutter.package_name}} --reports=y
 
-publish:
-	bash bin/publish.sh
+publishmajor:
+	bash bin/publishmajor.sh
 
-bumpmajor:
-	bumpversion major
+publishminor:
+	bash bin/publishminor.sh
 
-bumpminor:
-	bumpversion minor
-
-bumppatch:
-	bumpversion patch
-
-publishmajor: bumpmajor publish
-
-publishminor: bumpminor publish
-
-publishpatch: bumppatch publish
+publishpatch:
+	bash bin/publishpatch.sh

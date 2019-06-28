@@ -1,2 +1,3 @@
-# awesome_package
-Resources to create new pip package
+# {{cookiecutter.package_name}}
+
+# {{cookiecutter.package_description}}
