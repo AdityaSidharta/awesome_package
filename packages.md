@@ -1,0 +1,12 @@
+- **Flit** to deploy packages to PyPI for distribution
+- **bumpversion** to bump your semver number
+- **pip** to install and update packages from PyPI (or pipenv/WIP to do the same with more powers)
+- **Cookiecutter** to create a new Python Package (from strucured templates)
+- **safety** to check dependencies security
+- **pylint** to static and styling checks
+- **pyenv** & **pipenv** to manage isolated environments
+- **pytest** to run tests
+- **pyup.io** to watch for depdendency updates
+- **tox** for testing on multiple environments
+- **sphinx** to create documentation
+- **black** for code formatting
