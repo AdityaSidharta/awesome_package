@@ -18,7 +18,20 @@ test:
 	bash bin/test.sh
 	pylint {{cookiecutter.package_name}} --reports=y
 
-bump
-
-publish: test
+publish:
 	bash bin/publish.sh
+
+bumpmajor:
+	bumpversion major
+
+bumpminor:
+	bumpversion minor
+
+bumppatch:
+	bumpversion patch
+
+publishmajor: bumpmajor publish
+
+publishminor: bumpminor publish
+
+publishpatch: bumppatch publish
