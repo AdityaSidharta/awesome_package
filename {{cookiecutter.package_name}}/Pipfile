@@ -9,6 +9,8 @@ bump2version = "*"
 black = "==19.3b0"
 flit = "*"
 pytest = "*"
+mkdocs = "*"
+pdoc3 = "*"
 
 [packages]
 

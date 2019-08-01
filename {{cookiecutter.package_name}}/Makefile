@@ -24,3 +24,6 @@ publishminor:
 
 publishpatch:
 	bash bin/publishpatch.sh
+
+docs:
+	bash bin/docs.sh
