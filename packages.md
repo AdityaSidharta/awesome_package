@@ -10,3 +10,4 @@
 - **tox** for testing on multiple environments
 - **sphinx** to create documentation
 - **black** for code formatting
+- **Shield.io** for creating shields (metadata)
