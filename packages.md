@@ -7,6 +7,7 @@
 - **pyenv** & **pipenv** to manage isolated environments
 - **pytest** to run tests
 - **tox** for testing on multiple environments
+- **pdoc3** for automated documentation
 - **mkdocs** & **readthedocs** to create documentation
 - **safety** to check dependencies security
 - **pyup.io** to watch for depdendency updates
