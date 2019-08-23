@@ -2,14 +2,16 @@
 - **bumpversion** to bump your semver number
 - **pip** to install and update packages from PyPI (or pipenv/WIP to do the same with more powers)
 - **Cookiecutter** to create a new Python Package (from strucured templates)
-- **safety** to check dependencies security
+- **black** for code formatting
 - **pylint** & **flake8** to static and styling checks
 - **pyenv** & **pipenv** to manage isolated environments
 - **pytest** to run tests
 - **tox** for testing on multiple environments
-- **sphinx** to create documentation
-- **black** for code formatting
+- **mkdocs** & **readthedocs** to create documentation
+- **safety** to check dependencies security
+- **pyup.io** to watch for depdendency updates
 - **Shield.io** for creating shields (metadata)
 - **Travis-CI** for continuous integration
 - **Codecov** for Code Coverage
-- **pyup.io** to watch for depdendency updates
+- **Codacy** for Code Quality
+
